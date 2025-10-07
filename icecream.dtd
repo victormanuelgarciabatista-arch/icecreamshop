@@ -1,0 +1,18 @@
+<!ELEMENT icecreamsshops (icecreamshop+)>
+<!ELEMENT icecreamshop (employeeds)>
+<!ATTLIST icecreamshop shopid CDATA #REQUIRED>
+<!ATTLIST icecreamshop direction CDATA #REQUIRED>
+<!ELEMENT employeeds (employeed+)>
+<!ELEMENT employeed (sales?)>
+<!ATTLIST employeed id CDATA #REQUIRED>
+<!ELEMENT sales (icecream*,smoothiee*)>
+<!ELEMENT icecream (flavor,size,amount,type,add?,price)>
+<!ATTLIST icecream ball CDATA #REQUIRED>
+<!ELEMENT smoothiee (flavor+,size,amount,price)>
+<!ELEMENT flavor (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT add (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
