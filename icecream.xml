@@ -1,0 +1,61 @@
+<!DOCTYPE icecreamsshops SYSTEM "icecream.dtd">
+<icecreamsshops>
+    <icecreamshop shopid="001" direction="Plaza españa S/N">
+        <employeeds>
+            <employeed id="44775543K">
+                <sales>
+                    <icecream ball="3">
+                        <flavor> chocolate, vanilla, lemon</flavor>
+                        <size> medium </size>
+                        <amount> 1 </amount>
+                        <type>cone</type>
+                        <add>syrup</add>
+                        <price>4.95</price>
+                    </icecream>
+                    <smoothiee>
+                        <flavor>chocolate</flavor>
+                        <size>small</size>
+                        <amount>1</amount>
+                        <price>3.95</price>
+
+                    </smoothiee>
+                </sales>
+            </employeed>
+            <employeed id="44565878Z">
+                <sales>
+                    <icecream ball="1">
+                        <flavor> chocolate,</flavor>
+                        <size> medium </size>
+                        <amount> 2 </amount>
+                        <type>cone</type>
+                        <price>4.50</price>
+                    </icecream>
+
+                    <icecream ball="2">
+                        <flavor>chocolate, strawberry</flavor>
+                        <size>small</size>
+                        <amount>1</amount>
+                        <type>cone</type>
+                        <price>4.2</price>
+
+                    </icecream>
+                </sales>
+            </employeed>
+        </employeeds>
+    </icecreamshop>
+        <icecreamshop shopid="002" direction="Av Las Canteras #23">
+        <employeeds>
+            <employeed id="55647844M">
+                <sales>
+                    <smoothiee>
+                        <flavor>maracuya</flavor>
+                        <size>big</size>
+                        <amount>2</amount>
+                        <price>12.20</price>
+
+                    </smoothiee>
+                </sales>
+            </employeed>
+        </employeeds>
+    </icecreamshop>
+</icecreamsshops>
